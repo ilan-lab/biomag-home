@@ -237,7 +237,7 @@ bdi.ltr{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
 .peak h2,.peak__caps{position:relative;z-index:2}
 .peak__media{overflow:clip;z-index:1}
 .peak__media video{transform:scale(1.32);transform-origin:50% 46%;max-height:50vh}
-@media (max-width:759px){.peak__media video{transform:scale(1.38);max-height:44vh}}
+@media (max-width:759px){.peak__media video{transform:scale(1.2);max-height:46vh}}
 .hero{padding-inline:var(--gut)}
 .hero h1{max-width:min(13ch,100%)}
 .hero .lede{max-width:min(40ch,100%)}
