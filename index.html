@@ -28,7 +28,8 @@
 <link rel="preload" href="fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/heebo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="assets/device-1000.webp" imagesrcset="assets/device-640.webp 427w, assets/device-1000.webp 667w" imagesizes="(max-width:700px) 300px, 420px">
-<link rel="stylesheet" href="site.css?v=4">
+<script>(function(d){var t=matchMedia("(hover: none), (pointer: coarse)").matches;d.className+=" js "+(t?"is-touch":"is-fine")})(document.documentElement)</script>
+<link rel="stylesheet" href="site.css?v=7">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
  {"@type":"Organization","@id":"https://i-group.co.il/#org","name":"I-Group Medical · איי גרופ מדיקל","url":"https://i-group.co.il/","logo":"https://home.biomag.i-group.co.il/assets/igroup.png","telephone":"+972-54-900-7723","contactPoint":{"@type":"ContactPoint","telephone":"+972-54-900-7723","contactType":"sales","availableLanguage":["he"]}},
@@ -68,8 +69,8 @@
     <span class="offer">מבצע מיוחד ב־24 תשלומים</span>
   </div>
   <div class="hero__product">
-    <img src="assets/device-1000.webp" srcset="assets/device-640.webp 427w, assets/device-1000.webp 667w" sizes="(max-width:700px) 300px, 420px" width="667" height="1000" alt="מכשיר Biomag Lumina 3D-e Easy עם מסך מגע צבעוני" fetchpriority="high">
-    <div class="hero__floor"></div>
+    <div class="hero__float"><img src="assets/device-1000.webp" srcset="assets/device-640.webp 427w, assets/device-1000.webp 667w" sizes="(max-width:700px) 300px, 420px" width="667" height="1000" alt="מכשיר Biomag Lumina 3D-e Easy עם מסך מגע צבעוני" fetchpriority="high" decoding="async"></div>
+    <div class="hero__stage" aria-hidden="true"></div>
   </div>
 </section>
 
@@ -83,7 +84,7 @@
 
 <section class="lie light" aria-labelledby="h-lie">
   <figure>
-    <img src="assets/lie-1600.webp" srcset="assets/lie-860.webp 860w, assets/lie-1600.webp 1600w" sizes="100vw" width="1600" height="920" loading="lazy" decoding="async" alt="אישה שוכבת על מזרן טיפול של Biomag, ולידה מכשיר Lumina 3D-e Easy">
+    <img src="assets/lie-1600.webp" srcset="assets/lie-860.webp 860w, assets/lie-1600.webp 1600w" sizes="100vw" width="1600" height="920" loading="lazy" decoding="async" data-fade alt="אישה שוכבת על מזרן טיפול של Biomag, ולידה מכשיר Lumina 3D-e Easy">
   </figure>
   <div class="wrap">
     <h2 class="d2" id="h-lie" data-split><span class="w">מכשיר</span> <span class="w">אחד.</span> <span class="w">כל&nbsp;המשפחה.</span></h2>
@@ -97,12 +98,12 @@
       <h2 class="d2" id="h-pemf" data-split><span class="w">מגנטותרפיה,</span> <span class="w">בשפה&nbsp;פשוטה.</span></h2>
       <p class="lede muted" data-rise>טיפול בשדה מגנטי פועם, שמשתמשים בו בקליניקות. עכשיו גם בבית.</p>
       <div class="fx" data-stagger>
-        <figure><img src="assets/e-pain.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב הגב התחתון"><figcaption>הקלה בכאב</figcaption></figure>
-        <figure><img src="assets/e-heal.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב השוק"><figcaption>ריפוי והתחדשות</figcaption></figure>
-        <figure><img src="assets/e-swell.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב איבר נפוח"><figcaption>הפחתת נפיחות</figcaption></figure>
-        <figure><img src="assets/e-relax.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב שריר"><figcaption>הרפיית שרירים</figcaption></figure>
-        <figure><img src="assets/e-blood.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב כף היד"><figcaption>זרימת דם</figcaption></figure>
-        <figure><img src="assets/e-detox.webp" width="324" height="324" loading="lazy" alt="הדמיה של Biomag: מוליך סביב הבטן"><figcaption>חילוף חומרים</figcaption></figure>
+        <figure><img src="assets/e-pain.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב הגב התחתון"><figcaption>הקלה בכאב</figcaption></figure>
+        <figure><img src="assets/e-heal.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב השוק"><figcaption>ריפוי והתחדשות</figcaption></figure>
+        <figure><img src="assets/e-swell.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב איבר נפוח"><figcaption>הפחתת נפיחות</figcaption></figure>
+        <figure><img src="assets/e-relax.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב שריר"><figcaption>הרפיית שרירים</figcaption></figure>
+        <figure><img src="assets/e-blood.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב כף היד"><figcaption>זרימת דם</figcaption></figure>
+        <figure><img src="assets/e-detox.webp" width="324" height="324" loading="lazy" decoding="async" data-fade alt="הדמיה של Biomag: מוליך סביב הבטן"><figcaption>חילוף חומרים</figcaption></figure>
       </div>
     </div>
     <div class="pemf__blocks">
@@ -145,7 +146,7 @@
       <article class="tile tile--photo t-a">
         <picture>
           <source media="(max-width:759px)" srcset="assets/turn-home-m.webp">
-          <img src="assets/turn-home.webp" width="1320" height="1052" loading="lazy" alt="אישה יושבת על הספה עם מוליך Biomag על הגב ומחזיקה את המכשיר">
+          <img src="assets/turn-home.webp" width="1320" height="1052" loading="lazy" decoding="async" data-fade alt="אישה יושבת על הספה עם מוליך Biomag על הגב ומחזיקה את המכשיר">
         </picture>
         <div class="cap"><h3>טיפול מהספה.</h3><p>עשרים דקות, בבית, מתי שנוח לכם. היצרן ממליץ פעמיים ביום.</p></div>
       </article>
@@ -162,12 +163,12 @@
       <article class="tile t-c">
         <h3>מסך מגע צבעוני.</h3>
         <p>6 תוכניות מוכנות, חזרה אוטומטית ו־8 מקומות שאפשר לתת להם שם משלכם.</p>
-        <img class="t-c__img" src="assets/device-640.webp" width="427" height="640" loading="lazy" alt="">
+        <img class="t-c__img" src="assets/device-640.webp" width="427" height="640" loading="lazy" decoding="async" data-fade alt="">
       </article>
       <article class="tile tile--white t-e">
         <h3>מכשיר אחד לכל הבית.</h3>
         <p>לכל בן משפחה מבוגר, אחרי התייעצות עם רופא.</p>
-        <img src="assets/knee-600.webp" width="600" height="477" loading="lazy" alt="אישה יושבת על הרצפה עם מוליך Biomag על הברך">
+        <img src="assets/knee-600.webp" width="600" height="477" loading="lazy" decoding="async" data-fade alt="אישה יושבת על הרצפה עם מוליך Biomag על הברך">
       </article>
       <article class="tile tile--offer t-f">
         <div><p class="d3">מבצע מיוחד ב־24 תשלומים.</p><p>נציג I-Group יחזור אליכם עם כל הפרטים ויבדוק התאמה.</p></div>
@@ -184,15 +185,15 @@
       <p class="lede muted" data-rise>ככה נראה טיפול בבית.</p>
     </div>
     <div class="step">
-      <figure class="contain" data-zoom><img src="assets/step-device-800.webp" srcset="assets/step-device-480.webp 395w, assets/step-device-800.webp 657w" sizes="(max-width:860px) 80vw, 560px" width="657" height="800" loading="lazy" alt="מכשיר Biomag Lumina 3D-e Easy מלפנים, עם מסך המגע"></figure>
+      <figure class="contain" data-zoom><img src="assets/step-device-800.webp" srcset="assets/step-device-480.webp 395w, assets/step-device-800.webp 657w" sizes="(max-width:860px) 80vw, 560px" width="657" height="800" loading="lazy" decoding="async" data-fade alt="מכשיר Biomag Lumina 3D-e Easy מלפנים, עם מסך המגע"></figure>
       <div data-rise><p class="step__n" aria-hidden="true">1</p><h3 class="d3">בוחרים תוכנית.</h3><p>אחת משש התוכניות, במסך המגע הצבעוני.</p></div>
     </div>
     <div class="step">
-      <figure class="contain" data-zoom><img src="assets/mat-900.webp" srcset="assets/mat-560.webp 560w, assets/mat-900.webp 900w" sizes="(max-width:860px) 90vw, 640px" width="900" height="574" loading="lazy" alt="מוליך של Biomag, להמחשה"></figure>
+      <figure class="contain" data-zoom><img src="assets/mat-900.webp" srcset="assets/mat-560.webp 560w, assets/mat-900.webp 900w" sizes="(max-width:860px) 90vw, 640px" width="900" height="574" loading="lazy" decoding="async" data-fade alt="מוליך של Biomag, להמחשה"></figure>
       <div data-rise><p class="step__n" aria-hidden="true">2</p><h3 class="d3">מניחים את המוליך.</h3><p>על האזור שהרופא המליץ לטפל בו.</p></div>
     </div>
     <div class="step">
-      <figure data-zoom><img src="assets/sofa-1400.webp" srcset="assets/sofa-760.webp 760w, assets/sofa-1400.webp 1400w" sizes="(max-width:860px) 92vw, 680px" width="1400" height="984" loading="lazy" alt="אישה נשענת על הספה עם מוליך Biomag על הברך ומכשיר ביד"></figure>
+      <figure data-zoom><img src="assets/sofa-1400.webp" srcset="assets/sofa-760.webp 760w, assets/sofa-1400.webp 1400w" sizes="(max-width:860px) 92vw, 680px" width="1400" height="984" loading="lazy" decoding="async" data-fade alt="אישה נשענת על הספה עם מוליך Biomag על הברך ומכשיר ביד"></figure>
       <div data-rise><p class="step__n" aria-hidden="true">3</p><h3 class="d3">נשענים אחורה.</h3><p>עשרים דקות של טיפול. אפשר לקרוא, לנוח או לראות סדרה.</p></div>
     </div>
     <p class="fit" data-rise><strong>למי זה מתאים?</strong> למבוגרים מגיל 18, אחרי התייעצות עם רופא. לא מתאים בהריון, לבעלי קוצב לב ובמצבים נוספים. נציג I-Group יעבור איתכם על ההתאמה.</p>
@@ -239,7 +240,7 @@
   <div class="wrap">
     <div class="specs__top">
       <h2 class="d2" id="h-specs" data-split><span class="w">מפרט&nbsp;טכני.</span></h2>
-      <img src="assets/step-device-480.webp" width="395" height="480" loading="lazy" alt="מכשיר Biomag Lumina 3D-e Easy">
+      <img src="assets/step-device-480.webp" width="395" height="480" loading="lazy" decoding="async" data-fade alt="מכשיר Biomag Lumina 3D-e Easy">
     </div>
     <dl class="spec" data-stagger>
       <div><dt>דגם</dt><dd><bdi class="ltr">Biomag Lumina 3D-e Easy</bdi></dd></div>
@@ -271,7 +272,7 @@
       <li>נציג I-Group חוזר אליכם, מסביר ובודק התאמה.</li>
       <li>מקבלים את פרטי המבצע ב־24 תשלומים.</li>
     </ol>
-    <img class="final__dev" src="assets/device-640.webp" width="427" height="640" loading="lazy" alt="מכשיר Biomag Lumina 3D-e Easy">
+    <div class="final__float"><img class="final__dev" src="assets/device-640.webp" width="427" height="640" loading="lazy" decoding="async" data-fade alt="מכשיר Biomag Lumina 3D-e Easy"></div>
   </div>
 </section>
 
@@ -287,6 +288,7 @@
 
 <script src="js/gsap.min.js" defer></script>
 <script src="js/ScrollTrigger.min.js" defer></script>
-<script src="site.js?v=4" defer></script>
+<script src="js/lenis.min.js" defer></script>
+<script src="site.js?v=6" defer></script>
 </body>
 </html>
