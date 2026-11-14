@@ -81,12 +81,12 @@
     // sticky product reveal: scrub the exploded-view clip + caption cross-fades
     var caps = gsap.utils.toArray(".peak__caps p");
     gsap.set(caps.slice(1), {autoAlpha:0, y:16});
-    var ptl = gsap.timeline({scrollTrigger:{trigger:".peak", start:"top top", end:"bottom bottom", scrub:0.4}});
+    var ptl = gsap.timeline({scrollTrigger:{trigger:".peak", start:"top top", end:"bottom bottom", scrub:true}});
     ptl.to({}, {duration:1})
-       .to(caps[0], {autoAlpha:0, y:-16, duration:0.25}, 0.9)
-       .to(caps[1], {autoAlpha:1, y:0, duration:0.25}, 1.0)
-       .to(caps[1], {autoAlpha:0, y:-16, duration:0.25}, 1.9)
-       .to(caps[2], {autoAlpha:1, y:0, duration:0.25}, 2.0)
+       .to(caps[0], {autoAlpha:0, y:-16, duration:0.14}, 0.86)
+       .to(caps[1], {autoAlpha:1, y:0, duration:0.14}, 1.0)
+       .to(caps[1], {autoAlpha:0, y:-16, duration:0.14}, 1.86)
+       .to(caps[2], {autoAlpha:1, y:0, duration:0.14}, 2.0)
        .to({}, {duration:0.6}, 2.25);
     if (vid) {
       var target = 0, ticking = false;
