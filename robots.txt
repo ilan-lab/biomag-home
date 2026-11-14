@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ilan-lab.github.io/biomag-home/sitemap.xml
+Sitemap: https://home.biomag.i-group.co.il/sitemap.xml
